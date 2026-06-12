@@ -1,0 +1,27 @@
+# Gradle
+.gradle/
+build/
+*/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android Studio
+*.iml
+.idea/
+.DS_Store
+local.properties
+captures/
+.externalNativeBuild/
+
+# Kotlin
+.metals/
+.vscode/
+
+# OSX
+.DS_Store
+
+# Keystore
+*.jks
+*.keystore
+
+# Misc
+*.log
