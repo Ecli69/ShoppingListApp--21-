@@ -1,0 +1,41 @@
+# Gradle
+.gradle/
+build/
+*/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android Studio
+*.iml
+.idea/
+.DS_Store
+local.properties
+captures/
+.externalNativeBuild/
+
+# Kotlin
+.metals/
+.vscode/
+
+# OSX
+.DS_Store
+
+# Keystore
+*.jks
+*.keystore
+
+# Misc
+*.log
+*.lock
+
+# Build outputs
+app/build/
+build/
+*.apk
+*.aab
+
+# Testing
+app/src/test/
+app/src/androidTest/
+
+# KSP generated
+ksp/
